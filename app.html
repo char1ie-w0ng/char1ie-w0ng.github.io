@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Redirecting…</title>
+
+  <!-- Meta refresh fallback (delay in seconds) -->
+  <meta http-equiv="refresh" content="3;url="https://charles-w0ng.github.io/IP-App/app.html" />
+
+  <script>
+    // JavaScript redirect (preferred). Set delay in milliseconds.
+    (function() {
+      var target = "https://charles-w0ng.github.io/IP-App/app.html"; // change to desired URL
+      var delayMs = 0; // change to desired delay (ms). Set 0 for immediate.
+      // Use replace() so history is not polluted
+      setTimeout(function(){ window.location.replace(target); }, delayMs);
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting you now. If the browser does not redirect automatically, <a href="https://charles-w0ng.github.io/IP-App/app.html">click here</a>.</p>
+  <noscript>
+    <p>JavaScript is disabled. Click <a href="https://charles-w0ng.github.io/IP-App/app.html">here</a> to continue.</p>
+  </noscript>
+</body>
+</html>
